@@ -2,7 +2,7 @@ import functions
 
 code_symbol, offset = functions.get_offset()
 
-message = "Fletcher Hall is really hot right now"
+message = "I go to the University of Michigan and live in Fletcher Hall"
 print(f"Original message: {message}")
 print("-" * 30)
 encrypted_message = functions.encrypt(message.lower(), code_symbol, offset)
